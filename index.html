@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ES">
+  <link rel="stylesheet" href="style/style.css">
+ 
+  <script src="https://kit.fontawesome.com/88e9d45919.js" crossorigin="anonymous"></script>
+  <head>
+    <!--Este es el titulo-->
+    <!--
+    <title>Este es mi titulo</title>
+     
+    <h2>Hola mundo. otra vez pero en h2</h2>
+    <h3>Ahora en h3</h3>
+    <h4>Mas pequeño porque h4</h4>
+    <h5>Mas pequeño</h5>
+    <h6>Aun mas pequeño</h6>
+    h7...oh noo!
+
+    <p>Hola soy un parrafo</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, eum obcaecati non consequatur culpa est doloremque sequi explicabo nihil, quas a rerum adipisci pariatur sapiente quae dolor. Quisquam, tempora pariatur.</p>
+    -->
+    <h1 id="titulo" class="titulo-web">Web gatuna
+      <i class="fa-sharp fa-solid fa-cat"></i>
+    </h1>
+  </head>
+
+  <body>
+    <main>
+        <div id="parrafo1">
+            <h2>Imágenes de gatos</h2>
+            <img src="img/primerMichi.jpg" alt="Primer gatito" width="150">
+            <img src="img/segundoMichi.jpg" alt="SegundoMichi">
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBYVFRgWFRUZGRgYHBgZGBgaHBgYGBoYGBgZGRgYGBgcIS4lHB4rIRgYJjgmKy8xNTY1HCQ7QDszPy40NTEBDAwMDw8PGhIRGDQhISE0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0MTQ0NDQ0NDQ0NDE0NDQ0NDQ0MTQ0MTQ0MTQxNP/AABEIAKgBKwMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAADBAIFBgABB//EADsQAAEDAwMDAgQEBQIFBQAAAAEAAhEDBCESMUEFUWEicROBkaEGMrHBFELR4fBS8RUjYnKiBzOCwuL/xAAZAQEBAQEBAQAAAAAAAAAAAAAAAQIDBQT/xAAeEQEBAQEAAgIDAAAAAAAAAAAAARECAyESMQQiwf/aAAwDAQACEQMRAD8A0BcvWlRARWNXNsSmmWoTAjMWogrUQKDVKVUEXsoLqiC+5QNl6G6sq+pdpd1wSgsX3CE65SJeoOqK4HH3SE66SL3qActYGn3RSzrgqQZKNTsieEwLNquTFMOKepWAG6bZRaFUVzKLkyyie6YqPASZrmcKYGm0j3UpIQGPci+pMBmV0X46VLYE8quvLrSJB8FTFMdcql1GWZ9Ufb+6X6Rdxg+yHc1fRHc7jYmB/dV9uwh/0k9+37K4jaAyuKT6fVlsdk4sVUV4plRIRUVy4rkEVykowg8XL1eLI5cuXIKQIzUIKbShTDCitclw9QfXhWBw1EGpdAKurXqrbm9VFrWvvKUddEqn+KXFWVnSVDTGkoxEKQEBDflakQGrVQ2glFbRJKbpWhVCIYUanZucVbUbIcp1tGBhEI21mG7p1jOwQmuh2U6xwhAq9pCXaC44Kbu3DSk7ZunKBplnjJXrLNoUBccIb7nSgcFEBelgVS/qY7pR/XmjEoHup1dAB4WfurkGRO+37H6ot/1Rr2EEgjkLPOujMDOkyFLVjSX49LG7STB94++UvSOkBskg/PbP7It86WUzuTkHnIwEKk31AdvnE5yqL/phj5p51aFWWBJfOwaftCa6nTI9TdlnqEMfxAXn8QFk7nqhYYKAOuDuubTYOuQvP4kLHu62O6iOtjug2X8QF4boLJDrI7oVTrYHKDXm6HdeG7Cwr+vjuojr47omxu/4sd15/GjusI7r47oP/Hx3VxdjaLtSG+qEvUuFAarWhVtzeIVzcque6SrEHfXJ5QyZUESi2StQMWtPKvrVmEjZUFd21BakQJ1OUahZzum2MCKHQqgDbYBSPp4Q6tUgrviyEDFJ87L0V4MFAtzCk+HIBXL5dhEFWAglmUG4uABCBl9TUFzEnb1QUw7GQgFUcQ5J3VzAymbhyqrik95hoKCnvrwyQFWHW4+kFbix/DLANVUyeybq2FNjYY0e/KIxQoODZdgnf+qTbWExHq/TzCa/EdpUadbSSG8Khr3IIa/jmMGVnpuVuQ6aFOP9E84IJGD9USytyDOxjI7xyUh+GKxq0gXGYLmDxnV/9vstPToaQTudlpl7bVAJnxHtCsrV2sQRgqlo3TPiaJ1OAyeAOytrK6a78u3HnugzP4p6KcloXz67LmGF91rsbUZC+afi3o0S5oWLFjEuuz3Qxenul7hpaYKVc9RVu29PdBr3Z7qvZUUnmUEal0Z3U6d0e6SqNKi0oiyqXWN0p/EnugOcu0oPr9S7QPjyk2yU5QppivHtlCLITxYEJzFQppT1lRkrqdJXXTrUFakSmLKgrB7gBAXvwtIwhOZyqidJ3dEc5Kt3RXyBKBe/qaBKXsL4PmEWtUDmwVQGk+m+WbHhBpmvheNf6kC2fLZK9pOkakU22oMhKuoDKDWqgZR2v9IRAKdHT7Iz6uEO4qotnb6snYIPbe1L8nZW9Om1ghrUq55H5Nhwitq+8f5hEEc1CfTxhENQfTlDNcD7/UIKLrDGgeoDf/dYLrLG6HlrcA6sDEZmOV9C63ah7HAHJGPmvnDHlj3NfJDgQeRiRP2Klah/8K3wbSezVsQ8TAmAQYG84C0dt1LSA6TETG5k8rE21FrHB7W4JAMZIxx48cZWkt6jCTDhJ3MyBgfTKQXFgw1C52GEn8vIHE/dWtrRcyJ3PP8ARUdvcNBkbSAePH7rUWrw9o4PHzVD1BxCreq0A8OBCs2sAHsh3DQfdRHxf8R9MLHkwsvUpr7h1bprHgyMrG3H4aBcfSsWLrAspE7BMst3dlubf8NxwnqP4fA4Q1gGdHc7hEZ+H3bwvpdHo47JpnSR2QfK3/h56F/wV/Yr647pI7KH/CB2RPbMW2VYsal6dsWptoVaRcUMZU3Ji3pStQollbSVobWhASdkyFabKsvXFCJXjqhlRMoiJpmZULmtjZGp1RsUvVcJKKpxdDWWkrnvz4Xt2xmoeUtVw6AcIpoViJzhOU3gMVW06iQmw7EdggjbepxnZOOMSoWlLEoN7VgQERK2Gt2+ArsUoAAOP3SXSKOlkxkqyaycRvyiI0HluC35914Ljgj6LxlB4J1be/7JeuwjOTE7ec7ID/GztBx4BnZCdc79xg9szAlV12NpdA2g7GeJ/wA5CQr3U6QJ9UiYJ2I3nMb5RTd1Vn2JIPvnjtI+4WMvmBzw1wOv1A8ZBw4f07+609xWnDwTLXOMfQHz/wDlVV1Se5jXuHraJDoycidtxupVjLUKTgHhv5YLgeNgTPaP3TVo9zeNy2SPOIz7FWTXNc3RoEQcjtqjSZ8g/JBfS1QMyd9oB/UuzM7fZRVn027B3iGnHn+sLV9HudUb+rMnG3AWLt6WjG4bIgfr5/stJ0x/paDgd1YjX034yifDHJVXSqYG+yetqhIkqo8ubYHMJA2QHCtqT5dCFWbJKgUbZjspi0HZHohHDJ2WcCjbcDhe/CHZGcvNSgD8NefCRV7CKyde1SpolaR9qvDatWpDVBTsinKVCE1WqNalmVtboC1iLO1oiJTDkRlPS3KE56IEWzKG3yihyG8hFL3Y05SRrTyjXbsQqKpULTIQM3/5fZIPeXNDp8J5j9bZ7pf+FOgjyip2wGoE9lbinKStraIJVgxsoIOfGBwqY1XOqgbicq0uzAOVV9JYXPLp2RGnoPjYx4R33Dh2hJVajdOTB4I/dLU7wGZ25I2QXVKo52Z/cLqzTsPff58oFmQ1kh2DxEfrn9V6+DgxIkiJHtnuiFntHbEkkbH5eRnHPyVP1qgWN1MAwNpPaR+nHbmFcVmAzmfmZaRJ/YD6o1lZtqtIcMRluDmTlFZ6yqB9MO2IyDuA6MHfEjfgke4SNy9zAxhGNxGYOAAOw4jv9FUU+pOp3D3BumkXuYyD6fSYd6TiMROMq9uWDRqa6WuiBM6SCCdJ7QTt48xidS7la+NjxlIPIc0aZJkTy1zmlvnLd/B7qsZT0vmDDSZE8gYJPyw3YK9DGNpwf5XEFwiTJn0E7fnEnwqWvbnXjDSS4jiBENA3jAE+AtBplEgGOSXEn3iR/RWNCpABBaSdt5AG8f59UqXFjMxgCSNvvvxhHsnT+Y9o4x2xz/UKi8tnDuc5ydyrWi/tmPoqi3Znec/7CfqrD4kfujJ6kPVPdSeRud0qx8iQVNr5GfqgE6twnLZ+MqtuXiR2KN8SBugdqgIJVVXviJylxfFxicjtmVMF+1eqoD3+c98JiHf6h9UwCr3wjCr39Q8qjZekt3StS5PdaDPVL88FN/hJ+txJ4WauHlxhbH8JdP0N1HnZQaSrUMJCs/vhPVm47Kurhw8hEQY7zKHVriEN744hJ3dT/PKKXubkzH0/ooM9bT3G6Uc4l2E7bwHg8OwfdFd09sEtPyTzYG6E9ml0qIYSZOyBthByvXXI2UGVAMcIVXYn6IFOo1JBAQOgPjVwo374Gd170Bs6pCC/pVWkEbrO3NUsqS0R3Gc+/CumsgkQfoqfqrCHYkc8R9xBRGhpVXaGuEcRk89oTfxidt8jbMjvP+3zVb0pwdRExImORPGycjBiQ6JySd8kEcjP+boJ1RsZl0GRG4k5E7HA+qN0l2l5EfmBHYTw0+eEgajwY3gDvMQNQ/UItCoQ4HYg777Zj6QPuisv1Oy+JbtNOkXOgtiQIe1xDw4nAGqT3AQuh1nuNWk9jWaIcKcuexgfjDnkucPSQZ2+auOu132VR9RrddCsTUcG5dTfpAcQOWnBjv7wsn0vq5ubuo9jYYaRbJESQZn7/deb4OfNx+R1z1z+t27/AB9Xd468csvuesXFXqALtLHAgkFzRJMwQDtvA8bJ6kwNZqIOogTMap3GDiZj7nwqzp9Jp9U+oxLeJ5k4kTMgEQQPZWL4GIwZGQYiJJy7f9PZei+VG9eXQ0DOT32j357qdMGQc7e2efp/nCVYQ906pG0DbHz9lIXY0lgIx9YxO6Kvbet6QC7sDwdvCOH5OQPnnCqLarA5A4EtEmdzB58IlSr9e87Ae26qYsqN1Jgmc8YiP1Xrupt042H0/uqipcwRBx4jflLMcSYkgzvPfO2yC8p3mv2+/wBOFK5fGx3G3lVtR+kNEtBOJ2/37qu6j1nQdNMy47vOAP8AsH7qaYuK9RlNoNZ3qOQ0H9UoOugH/ls3xiPrKztNr3n1knuZ1fTwrex6a5vqbkfQ/JT5Lh9tas/lN07Z8DEovTKZJy0/SCr74A7KI+XayCQlqlZWlxbAOVY6gXOgbytos/w5051V8lst7r6Dbta0Bo4SH4esPhUxPOU9UeAiCPKTuHjhRqXPCWfUzuilrlkiZVPc1IMK0vX4+aq6zS4ygXoslwIVvTpemYxuFGwthMpm5OkEBBWX104GQMKwt3h7JQa1vLI7qVi7S3RyilWask4CYNQacyvaulu/JQ62kGd/EwgQvqzNtE+7iP0hQ6TfU2vj4QBPOt5/Uol4diGMJ/6tR/V0INJ9VrgQyk0d9DR/5aT+qI0bazCc6m/9pB+xQ7m3D8Cow/8AS8aD8nKTajnM/PRnyGfrCWfV4cyk/wD7Xtafs4foiGKVh8NkadAcciQT/wDEtIn2GV1S4ax+h+sE5aYORxDgP8wpVntY3UWuFFw9YyQ3yREwgstC+QCS1v8AzKT2OktH+gzktycbfoiiVA7VBkT6cbzoJmO/t4lMW5yTIO36/PifqE7a2THMDmmAcmRG28djgjldUtgwFzoEHsOO+PP3QLdUrg0Xgs1enAxyNweyzvQuhCmypUc31VI86WROPJOfkrerV+OXM0hrJ9R9Op0YIdIxmdp2Vk5ocwNGBwAY27fb6qYayTLWDpk7+2J4PGeVIMMhu2nHfHGIA4mZV8+1g+oTA3ORv5iPl4VbcUAD7TkAjEGY3n2PmEWKq5BjS3UfLp3HAMYRbWzABLodzDuCJztPzKNTtSTqcwHcgQY7iScFPUqYBBdBO+c+wafCAFCgNwZPcDA7wRt80CqXCRvgbgjB8kR2/wAwjXNxIIYBk5AH8w+U9swk9bhLW6SSJ0l2l58kmR8z9FQq+WAAnPck/Ur23uwAee5yDtkopoOfqLm54DS18HvLck+4VXUtXyTOoDfVI+3Kio9YuC9wGqYIjwffkL20tHuIlpko1nay6WsJzxkf2W76ZZ+gFzII7hT7PpWWXTRLQ5kK3Z0sA4JH+dk2NxATTKknbZZTXtOjpLcBFc4oVe6Ac0Ewl3XI7lNMZZ3T3OEqFh0sCo2d5laKs5rYA54SdvTcKgJHst6yuXuOnCVc0nKJUqk+yHrJWgCo3wkaj1ZwTx80rVYDIcI8oKyq+Z+aDTpk+yLdW7hkH0pqzo+lRR6FKBK8/hy/MKwo2uoIoYWCN1NFTVsHkgDC8qWL2erSVpqb8Awi1KzQQ0xlPkMLftkAxkKFVp0tcW44Pn2WzfYUy4uLUt1DpbXtDREDKaaxtWsXTpdEdsfos/cOhxBk+T/UrdM/DJMkO0++VUdS/Dz6bwXM+Izkjshql6VftDi1xb/5H+yarXDJgz4IYP11Ju//AA0xzQ+m0tJzHPsqbq1Q25Y0MLsDJyAVnVaDpl0CCzRqAkGRAjktM8K4tbPIBeA5p1Uy3GpoAOkzv9pCzNHU6HOydwDgfTZWtj1V7Ia6Gj+QgSBJjGPrwtSljWUKzokggmA5oLSGuHbHt9lW3t6A/wCE/SA6m5wnBLtbWiO35pkBPUblr25jYbYG2/j2lYP/ANTWaXUC0kPDpB29P80R4+4CqRr7K10mT285J3P3Psp3lu4tJZ6SMidjG4PYb5Cqvwp1r47GNe9utohwkBxI5g9/3+Qv+q3LWMIkAkT5jklBV1ml7W+uBvPcdv2Wd6xfW1EBzqzg7wHPJE7mBjPlXtnbB7A506WO0sHBkAlxGxEk48FDuPw9RrUtLhqLpy/PciR9FMXVP0rqlCqBorMzw6WO+Qdvnzz9XnWTyCCRBGw7ZO0yckZ5wfal6l+HnfCLH2kvHpZVY0vbjl2mS10eCMKt6feXlq4UzRqV6QP5Qx7iwYgteRA59JOY4XDx+Trq2XmzHTrmSSyytYykBgkggY8wJIy0g87HELxr2OYS0Entz7wDuExSe2q3Vp0O0yYGSNwYduRyDB9sFArWWkOc0ROSaZcIO+rSc+CPHdd3MKjbQSXtbkTLARGdiBnvlOW9qHGXCSdv2zufmh2zSQI3MGRvHzyry0oTwDHP+bKjrSwYD+Ud9oVlpgZUGM/0jI+y9LCT6tjjH9Fm1CdZxa0OZvKYY92HGBOU1/DCHCMdu0qvY5slgIcRk5kDwAsWtQy+3D3aiNtimaduAAI2RS/TpEel0A+DAIKYa0J6RkX3LZlw9kUOlpc3jCjVq0nenSROCcEZGxHCnQpinLHflI1Md/KQVvm+0qvdd8SJJDQMzJMTCfLoE/7lZuxaX37xMtaBEGRGOPc/ZX96yMDuI+Z/dbRQdT645hIadp45/b35TLOqnSNWSQCVU9Yt26m62k+oA7bncD7/AOYRWUicjeRIM8CRPY8KC9tqofJHzG6ct6Y/sqnpbHmpIaSGwHEAwDvE+xCt72m9jmu0nS7BPY8Sgvbek3SOF1W1BS/T6hLSNQEJkMdpMknBzyCs2KgbeM6oCKbUPgkbbJei/VDIdq+ke8pgUDAhx1cZEYnhTIAAaHSdncd+Ey2gHNMbkGPfhSqM1NAfBODI7j9CiyfBxjGZ8oEP4R+0e6i+TLMgjmNvdOveQMnI2PMcgoL6/qAn3jf2UFMYdLTBIMAt591Ot0mi8ZZ6oEjBbqxBhWHwgXEFuXfzNEHwSdlK2t209QBJd3PnkBBmrjojmPaGAvBztECDKr6tixzCQ0iBDnbR7mRAW5ZUy1sYMyfP+lQFqwF7Qxuh+HGRDt8Ed/PlWUfP7V1ajhoD2RtqkgzEAnwZz9Ejc2h6hUio9zGU8NcfzayZdjZzYj5+y+lW/TKLHB7GBrsjk4PEHAzz5QqfSKLXPcyh+doa4yIEaiCBMtMnjwrsGOt/wBRaWk16msEHUHQDHZpkAbZEe62ItxpDXFriAADpgwMd8j/OUSjYY0kOBaMOlpBnYYM+NgostXklskaSIMHI3MH5wroVuqEGGjAAAaM4JgQOPHsh1enVGvgS4d/c4+/0V7bsEExGfoJ8fVDqel8zg7x34nPbwp8hS2ZqueWNdBZ+fIMZIP1I88pi6q1mEAua4HIMQIG8+dk1Y9IZReXsmXyHZMEGSMbA53TzmQyHiY/3TRnWl7pOgeNLT9zGCoVmuGkacO3nB92/0WhrVTA0bkT9Dup1A0kAtEwHDbHBhNFc+k2QNI2AJAEARIJ91Gws/hve9xcQ76GBgAJ+4Zj0xggavA790vSeRJM5OxypaCvaHY/LOWxAInzyUCpRcAILi7v2jv8AP9EVrNW+YyAOPCnRqZk7OH0PlZsVDWIDZJgy7H5j2HhLnptNlQvbhxB7RB3I8olW3eIG8OBHtPKcuaZeyJAM/omRdLUmGCWnck5xwAAPkE1ulHPLNDP9Ukp3+LaMdkmJ7UVSh/M+kyDgub+bE791z7djmfCf+WJYTu0HceR/RcuWkZzo34dqW9wX62uY4PDW6iSG6sRiJK0d7U/9kaC4uc5pkHSzTH5u0zhcuVgqvxH+HRXEsaWulvpnAA3cCfAP1Vl0vpgZTYajIcMPM6g4jYwOD2XLlaLYWp0OayBqAHaBOfcqvr0qhrBpP/K0eqctMlwcB3dIG+2F6uWRZUWMaNLdoO45AwcLy2cC0ky2MFwJAn9CVy5AQPmfVI2MtIcCPPI8LpBJbkbQcx8vMrxcoJucQ2DEmIPHmF42o1gkwBt2O+/lcuVHXDA4bAg4MY3+6FRY5sngbH+q5cgmx87xjeERzA4FwGTz7cLlyCbgPmQDPlIG20emfTueRO/zlcuUqxOk7Gce+CvTTkhwwRmfELlyQNnI9kQ5BHhcuVQMtkb9vqlfgS8av8K5cgbducdgPkouptdztP3C5cgg5m0cCPklWUXio573emHaWjgR37rxcpVgNhdGoJaPRBDQZBMGJgqwtqQgBcuSfRftF1XTUiDpI349kuaJDjmQ4z7eFy5A+GxHhe6Mz5lcuVQO4HMCRsULWDuFy5RX/9k=" alt="imagen gatito2" srcset="">
+            <a href="https://www.google.com.mx/search?q=imagenes+de+gatos&hl=es&authuser=0&tbm=isch&sxsrf=AJOqlzWBFkmD4CNS0IVFSw6HbRvXnJ732w%3A1677954760938&source=hp&biw=1360&bih=608&ei=yI4DZIyMN_XMkPIP9NmW-Ag&iflsig=AK50M_UAAAAAZAOc2K7ODNkxIXwmYna9e6G-UL6vQ5-C&ved=0ahUKEwiMkOTL9ML9AhV1JkQIHfSsBY8Q4dUDCAc&uact=5&oq=imagenes+de+gatos&gs_lcp=CgNpbWcQAzIICAAQgAQQsQMyCAgAEIAEELEDMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6BAgjECdQAFi7S2DxTWgAcAB4AIABuQWIAaIYkgEMMS4xMi4yLjEuMC4xmAEAoAEBqgELZ3dzLXdpei1pbWc&sclient=img#imgrc=ZOKAEVKnMDeHYM">
+            <img src="https://ca-times.brightspotcdn.com/dims4/default/c3f4b96/2147483647/strip/true/crop/1970x1108+39+0/resize/1200x675!/quality/80/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F12%2Fa5%2F79e097ccf62312d18a025f22ce48%2Fhoyla-recuento-11-cosas-aman-gatos-top-001" alt="gatito acostado" height="150em">
+          </div>
+      </a>
+      <div id="tablas">
+      <h3 id="listaGatos">Lista de gatos</h3>
+      <em>Lista creada por Karen </em> <br>
+      <div id="parrafo2" class="listas">
+        <p>Cosas que los gatos <b>aman</b>♥</p>
+        <!--Lista no ordenada-->
+          <ul>
+            <li>Dormir 😴</li>
+            <li>Rasguñar 😺</li>
+            <li>Enojarse porque su plato no esta lleno 👿</li>
+            <li>Dormir 😴</li>
+            <li>Jugar 😸</li>
+            <li>Ser un amor con solo existir 🥰</li>
+          </ul>
+          <img src="img/cat.png" alt="icono gatitos" width="100px">
+      </div>
+        
+
+        <!--Lista ordenada-->
+      <div id="parrafo3" class="listas">
+        <p>Cosas que los gatos odian</p>
+        <ol>
+          <li>Demasiado amor</li>
+          <li>No tener lleno su plato</li>
+          <li>Otros gatos</li>
+          <li>Citricos</li>
+        </ol>
+        <img src="img/angry.png" alt="gato enojado" height="100px">
+
+      </div>
+    </div>
+    <div class="navegar">
+      <ul>
+        <li><a href="#parrafo1">Parrafo1</a></li>
+        <li><a href="#parrafo2">Parrafo2</a></li>
+        <li><a href="#parrafo3">Parrafo3</a></li>
+        <li><a href="https://http.cat/"><img src="https://png.pngtree.com/png-clipart/20200701/original/pngtree-cat-paw-footprint-png-image_5409961.jpg" alt="patita de gato" height="50px"></a>
+        </li>
+       </ul> 
+  </div>
+
+    <div>
+      <form>
+        <fieldset id="formularioCaja">
+        <legend>Conociendo tu gatito</legend>
+        
+        <div id="edad">
+        <p>¿Tu gatito es cachorro o adulto?</p>
+        <label for="cachorro">
+        <input type="radio" name="edad" id="cachorro" value="cachorro" checked>
+        Cachorro
+      </label>
+      <label for="adulto">
+        <input type="radio" name="edad" id="adulto" value="adulto">
+        Adulto
+      </label>
+      </div>
+
+      <div id="personalidad">
+        <p>¿Qué tipo de gato es el tuyo?</p>
+        <label for="cariñoso">
+          <input type="checkbox" id="cariñoso" value="cariñoso" name="personalidad">
+          Cariñoso
+        </label>
+        <label for="enojon">
+          <input type="checkbox" id="enojon" value="enojon" name="personalidad">
+          Enojon
+        </label>
+        <label for="perezoso">
+          <input type="checkbox" id="perezoso" value="perezoso" name="personalidad">
+          Perezoso
+        </label>
+        <label for="jugueton">
+          <input type="checkbox" id="jugueton" value="jugueton" name="personalidad">
+          Jugueton
+        </label>
+      </div>
+    </fieldset>
+      </form>
+    </div>
+  </main>
+  <footer>
+    <p>Pagina creada por Anna en <a href="https://tecnolochicas.mx/">Tecnolochicas Pro</a></p>
+  </footer>
+  </body>
+</html>
